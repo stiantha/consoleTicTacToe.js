@@ -136,4 +136,4 @@ window.startTTT = function() {
 ;
 var t = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)
   , o = /Firefox/.test(navigator.userAgent);
-(t || o) && console.log("%cLyst til å spille Tic Tac Toe? Skriv startTTT(); i console.", "font-weight:bold; font-size: 24px");
+(t || o) && console.log("%cSource = vg.no\n\nLyst til å spille Tic Tac Toe?\nSkriv startTTT();", "font-weight:bold; font-size: 24px");
